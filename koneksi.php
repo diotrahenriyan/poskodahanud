@@ -1,16 +1,10 @@
 <?php
+$m = new MongoClient("mongodb://arhanud:Z6pQmv@167.205.7.226:27017/poskodahanud");
+$db = $m->poskodarhanud;
 
-$user_name = "root";
-$password = "";
-$database = "poskodahanud";
-$host_name = "localhost";
+  if($db==false){
+  print "Gagal Koneksi"."<br>";
+} else {
 
-mysql_connect($host_name, $user_name, $password);
-
-mysql_select_db($database);
-
-//echo "Koneksi Terbuka";
-
-?>
-
-// test collab
+}
+ ?>
