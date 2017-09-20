@@ -5,6 +5,6 @@ $db = $m->poskodarhanud;
   if($db==false){
   print "Gagal Koneksi"."<br>";
 } else {
-
+  print "gagal";
 }
  ?>
